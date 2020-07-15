@@ -1,0 +1,211 @@
+body{
+    padding: 0;
+    justify-content: center;
+    margin: 0;
+    box-sizing: border-box;
+    background-image: url(../backgroundpicture/background_pictures.jpg)
+
+}
+.web-page{ 
+    font-family: 'Amatic SC';font-size: 45px;
+    background-color: rgb(129, 131, 13);
+    text-decoration-color: rgb(134, 56, 32);
+    width: 100%;
+    padding: 12px 0 12px 0 ;
+}
+
+
+.font-A{
+    font-family: 'Annie Use Your Telescope';font-size: 22px;
+}
+.font-B{
+    font-family: 'Gloria Hallelujah';font-size: 30px;
+}
+
+.wallpapers-full-screen{
+    background-image: url(../backgroundpicture/background_pictures.jpg);
+    background-attachment:auto;
+    width: 100%;
+    height: auto;
+}
+.fixed-bar {
+    background-color: rgb(3, 3, 148);
+    background-color: transparent;
+    width: 100%;
+    padding: 12px 0 12px 0 ;
+    text-align: center;
+}
+.background-12{
+    background-image: url(../PngItem_173355.png);
+    background-attachment: fixed;
+}
+@media screen and (min-width:101px){
+    .body{
+        width:50%;
+        display:block;
+        padding-bottom: 15px;
+    }
+    .rummer{
+        width: 300px;
+    }
+    .nivigation li{
+        width:50%;
+        display:block;
+        padding-bottom: 15px;
+    }
+    #toogle{
+        display: block;
+    }
+    .ul{
+        width: 50%;
+    }
+    .ul li{
+        width: 50%;
+    }
+}
+@media screen and (max-width:100px){
+    .body{
+        width:100%;
+        display:block;
+        padding-bottom: 30px;
+    }
+    .rummer{
+        width: 600px;
+    }
+    .nivigation li{
+        width:100%;
+        display:block;
+        padding-bottom: 30px;
+    }
+    #toogle{
+        display: block;
+    }
+    .ul{
+        width: 100%;
+    }
+    .ul li{
+        width: 100%;
+    }
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: cornsilk;
+}
+.paragraph{
+    text-align: start;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul li {
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 40px;
+}
+ul li a{
+    text-decoration: none;
+    text-decoration: none;
+    background-color: transparent;
+    padding: 10px 50px;
+    border-radius: 5px;
+    color :rgb(121, 69, 1);
+}
+ul li a:hover{
+    background: rgb(80, 21, 21);
+    border:3px solid rgb(119, 110, 110);
+}
+.fas 
+{
+    margin: 8px;
+}
+.img-manu-cont{
+position: absolute;
+top: 30%;
+left: 20%;
+bottom: 50%;
+transform: translate(-50%,-50%);
+transform: scale(1.5);
+}
+.img-to-home{
+    text-decoration: none;
+    text-decoration: none;
+    background-color: rgb(119, 110, 110);
+    padding: 8px 50px;
+    width:10%;
+    border-radius: 5px;
+    margin: auto;
+    color :black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-gallary{
+    margin:20px 0 20px 0;
+}
+.img-container{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: rgb(128, 72, 72);
+    background-color: #925801;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px rgb(243, 132, 67);
+  }
+  
+  .button:hover {background-color: #8d5c00}
+  
+  .button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px rgb(247, 128, 17);
+    transform: translateY(4px);
+  }
+
+.car-del{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: start;
+    color: rgb(102, 54, 0);
+    align-content: initial;
+    width: 100%;
+
+}
+.car-del-1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    text-align: start;
+}
+
+.car-del-2{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: start;
+    color: rgb(187, 31, 3);
+    align-content: initial;
+    width: 100%;
+}
+footer{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+    box-sizing: border-box;
+}
+.footer-content{
+    text-decoration: none;
+    
+}
